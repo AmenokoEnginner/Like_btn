@@ -1,0 +1,116 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.logout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout a {
+  text-decoration: none;
+  color: #fff;
+  background: #ff6459;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.count {
+  text-align: center;
+  font-size: 36px;
+  font-size: bold;
+  padding: 10px;
+}
+
+.icon {
+  padding: 50px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-thumbs-up {
+  color: #555;
+  font-size: 300px;
+  transition: .5s all;
+}
+
+.like {
+  color: #57e2fa;
+}
+
+.comment {
+  text-align: center;
+}
+
+.comment p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background: #57e2fa;
+  padding: 20px;
+  border: 2px solid #57e2fa;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.comment::before {
+ content: '';
+ display: inline-block;
+ border-bottom: 40px solid #57e2fa;
+ border-right: 15px solid transparent;
+ border-left: 15px solid transparent;
+ position: relative;
+ top: 10px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form h2 {
+
+}
+
+form h4 {
+  margin: 10px 0 0;
+}
+
+form div {
+  text-align: center;
+}
+
+form .name {
+  width: 100%;
+  margin: 5px auto;
+  font-size: 22px;
+}
+
+form .error {
+  color: red;
+}
+
+form .submit {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 20px auto;
+  border: none;
+  color: #fff;
+  background: #57e2fa;
+  border-radius: 5px;
+}
+
+form a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  margin: 20px auto;
+  color: #fff;
+  background: #ff6459;
+  border-radius: 5px;
+  text-decoration: none;
+}
